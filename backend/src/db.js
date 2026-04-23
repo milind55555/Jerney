@@ -8,6 +8,7 @@ const pool = new Pool({
   database: process.env.DB_NAME,
   database:"aa",
   password:"mmaallnndd"
+  reset:True
 });
 
 async function initDB() {
